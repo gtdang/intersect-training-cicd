@@ -1,8 +1,0 @@
-name: example
-on: push
-jobs: 
-  greeting:
-    runs-on: unbuntu-latest
-    steps:
-      - name: Greeting!
-        run: echo hello world
